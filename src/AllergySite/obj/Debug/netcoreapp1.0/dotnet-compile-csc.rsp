@@ -236,6 +236,7 @@
 "C:\Users\cog04\code\AllergySite\AllergySite\src\AllergySite\Data\Migrations\00000000000000_CreateIdentitySchema.Designer.cs"
 "C:\Users\cog04\code\AllergySite\AllergySite\src\AllergySite\Data\Migrations\ApplicationDbContextModelSnapshot.cs"
 "C:\Users\cog04\code\AllergySite\AllergySite\src\AllergySite\Models\ApplicationUser.cs"
+"C:\Users\cog04\code\AllergySite\AllergySite\src\AllergySite\Models\GeocodeModels.cs"
 "C:\Users\cog04\code\AllergySite\AllergySite\src\AllergySite\Models\AccountViewModels\ExternalLoginConfirmationViewModel.cs"
 "C:\Users\cog04\code\AllergySite\AllergySite\src\AllergySite\Models\AccountViewModels\ForgotPasswordViewModel.cs"
 "C:\Users\cog04\code\AllergySite\AllergySite\src\AllergySite\Models\AccountViewModels\LoginViewModel.cs"
@@ -255,3 +256,5 @@
 "C:\Users\cog04\code\AllergySite\AllergySite\src\AllergySite\Services\IEmailSender.cs"
 "C:\Users\cog04\code\AllergySite\AllergySite\src\AllergySite\Services\ISmsSender.cs"
 "C:\Users\cog04\code\AllergySite\AllergySite\src\AllergySite\Services\MessageServices.cs"
+"C:\Users\cog04\code\AllergySite\AllergySite\src\AllergySite\Utils\API.cs"
+"C:\Users\cog04\code\AllergySite\AllergySite\src\AllergySite\Utils\Utils.cs"
