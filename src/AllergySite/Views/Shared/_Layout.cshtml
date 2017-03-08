@@ -27,17 +27,17 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a asp-area="" asp-controller="Home" asp-action="Index" class="navbar-brand">AllergySite</a>
+                <a asp-area="" asp-controller="Home" asp-action="Index" class="navbar-brand" style="color:white;">AllergySite</a>
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li><a asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
-                    <li><a asp-area="" asp-controller="Home" asp-action="About">About</a></li>
-                    <li><a asp-area="" asp-controller="Home" asp-action="Physicians">Physicians</a></li>
-                    <li><a asp-area="" asp-controller="Home" asp-action="Services">Conditions We Treat</a></li>
-                    <li><a asp-area="" asp-controller="Home" asp-action="Offices">Offices</a></li>
-                    <li><a asp-area="" asp-controller="Home" asp-action="PollenMap">Pollen Map</a></li>
-                    <li><a asp-area="" asp-controller="Home" asp-action="Contact">Contact</a></li>
+                    <li><a asp-area="" asp-controller="Home" asp-action="Index" style="color:white;">Home</a></li>
+                    <li><a asp-area="" asp-controller="Home" asp-action="About" style="color:white;">About</a></li>
+                    <li><a asp-area="" asp-controller="Home" asp-action="Physicians" style="color:white;">Physicians</a></li>
+                    <li><a asp-area="" asp-controller="Home" asp-action="Services" style="color:white;">Conditions We Treat</a></li>
+                    <li><a asp-area="" asp-controller="Home" asp-action="Offices" style="color:white;">Offices</a></li>
+                    @*<li><a asp-area="" asp-controller="Home" asp-action="PollenMap" style="color:white;">Pollen Map</a></li>*@
+                    <li><a asp-area="" asp-controller="Home" asp-action="Contact" style="color:white;">Contact</a></li>
                 </ul>
                 @await Html.PartialAsync("_LoginPartial")
             </div>
