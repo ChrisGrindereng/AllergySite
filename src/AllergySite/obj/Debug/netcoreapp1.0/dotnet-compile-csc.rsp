@@ -229,6 +229,7 @@
 "C:\Users\cog04\code\AllergySite\AllergySite\src\AllergySite\Program.cs"
 "C:\Users\cog04\code\AllergySite\AllergySite\src\AllergySite\Startup.cs"
 "C:\Users\cog04\code\AllergySite\AllergySite\src\AllergySite\Controllers\AccountController.cs"
+"C:\Users\cog04\code\AllergySite\AllergySite\src\AllergySite\Controllers\ConditionsController.cs"
 "C:\Users\cog04\code\AllergySite\AllergySite\src\AllergySite\Controllers\HomeController.cs"
 "C:\Users\cog04\code\AllergySite\AllergySite\src\AllergySite\Controllers\ManageController.cs"
 "C:\Users\cog04\code\AllergySite\AllergySite\src\AllergySite\Data\ApplicationDbContext.cs"

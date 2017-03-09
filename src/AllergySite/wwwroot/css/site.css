@@ -11,11 +11,7 @@
 }
 
 .navbar-inverse{
-    background-color: blue;
-}
-
-#navbar-color{
-    color: snow;
+    background-color: navy;
 }
 
 /* Set widths on the form inputs since otherwise they're 100% wide */
@@ -25,11 +21,17 @@ textarea {
     max-width: 280px;
 }
 
+
 /* Carousel */
+.carousel-caption h1{
+    color: lightgoldenrodyellow;
+}
+
 .carousel-caption p {
     font-size: 20px;
     line-height: 1.4;
     margin-bottom: 100px;
+    color: lightgoldenrodyellow;
 }
 
 /* buttons and links extension to use brackets: [ click me ] */
@@ -44,7 +46,7 @@ textarea {
     padding-left: 0.5em;
 }
 
-.item{
+.item {
     height: 450px;
 }
 
@@ -112,7 +114,8 @@ border-radius: 5px 5px;
   margin: 1rem;
   position: relative;
   width: 31%;
-  text-align: center
+  text-align: center;
+  vertical-align: top;
 }
 
 .colom-border{
