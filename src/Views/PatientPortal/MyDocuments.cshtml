@@ -1,0 +1,28 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    Layout = "~/Views/Shared/_LayoutPatientPortal.cshtml";
+}
+
+<div class="bhoechie-tab">
+    <div class="bhoechie-tab-content active">
+        <p style="font-size:medium;margin-bottom:20px;">Here you can view and upload documents related to your care.</p>
+        <div class="panel panel-default">
+            <div class="panel-heading noNote">
+                <div class="title-right"></div>
+                <div class="panel-title">My Documents</div>
+            </div>
+            <div class="panel-body overflowH">
+                <div class="form-horizontal group-border hover-stripped formView">
+                    <div class="form-group">
+                        <label for="exampleInputFile">File input</label>
+                        <input type="file" class="form-control-file" id="exampleInputFile" aria-describedby="fileHelp">
+                        <small id="fileHelp" class="form-text text-muted">Upload patient documents here.</small>
+                    </div>  
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
