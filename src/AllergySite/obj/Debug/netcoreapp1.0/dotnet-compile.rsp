@@ -237,6 +237,7 @@ C:\Users\cog04\code\AllergySite\AllergySite\src\AllergySite\Controllers\Appointm
 C:\Users\cog04\code\AllergySite\AllergySite\src\AllergySite\Controllers\ConditionsController.cs
 C:\Users\cog04\code\AllergySite\AllergySite\src\AllergySite\Controllers\HomeController.cs
 C:\Users\cog04\code\AllergySite\AllergySite\src\AllergySite\Controllers\ManageController.cs
+C:\Users\cog04\code\AllergySite\AllergySite\src\AllergySite\Controllers\PatientPortalController.cs
 C:\Users\cog04\code\AllergySite\AllergySite\src\AllergySite\Data\ApplicationDbContext.cs
 C:\Users\cog04\code\AllergySite\AllergySite\src\AllergySite\Data\Migrations\00000000000000_CreateIdentitySchema.cs
 C:\Users\cog04\code\AllergySite\AllergySite\src\AllergySite\Data\Migrations\00000000000000_CreateIdentitySchema.Designer.cs

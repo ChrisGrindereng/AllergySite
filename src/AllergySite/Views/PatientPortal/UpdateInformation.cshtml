@@ -1,0 +1,166 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    Layout = "~/Views/Shared/_LayoutPatientPortal.cshtml";
+
+}
+
+<div class="bhoechie-tab">
+    <div class="bhoechie-tab-content active">
+        <p style="font-size:medium;margin-bottom:20px;">Below you can edit your personal information.</p>
+        <div class="panel panel-default">
+            <div class="panel-heading noNote">
+                <div class="title-right"></div>
+                <div class="panel-title">Project Details</div>
+            </div>
+            <div class="panel-body overflowH">
+                <div class="form-horizontal group-border hover-stripped formView">
+                    <form>
+                        @*-----Name Field----*@
+                        <div class="form-group" style="padding-left: 5px">
+                            <label for="Name">Name</label>
+                            <input type="text" class="form-control" aria-describedby="name" placeholder="Chris Grindereng">
+                            <small class="form-text text-muted">Enter both your first and last name</small>
+                        </div>
+                        @*-----Phone number Field----*@
+                        <div class="form-group" style="padding-left: 5px">
+                            <label for="phoneNumber">Phone</label>
+                            <input type="tel" class="form-control" placeholder="3037179282">
+                        </div>
+                        @*-----Address 1 Field----*@
+                        <div class="form-group" style="padding-left: 5px">
+                            <label for="Address1">Address 1</label>
+                            <input type="text" class="form-control" aria-describedby="address1" placeholder="111 Texas Street">
+                            <small class="form-text text-muted"></small>
+                        </div>
+                        @*-----Address 2 Field----*@
+                        <div class="form-group" style="padding-left: 5px">
+                            <label for="Address2">Address 2</label>
+                            <input type="text" class="form-control" aria-describedby="address2">
+                            <small class="form-text text-muted">.</small>
+                        </div>
+                        @*-----Country Field----*@
+                        <div class="form-group" style="padding-left: 5px">
+                            <label for="Country">Country</label>
+                            <input type="text" class="form-control" placeholder="United States">
+                        </div>
+                        @*-----State Selector----*@
+                        <div class="form-group" style="padding-left: 5px">
+                            <label for="State">Select a State</label>
+                            <select class="form-control">
+                                <option>Alabama</option>
+                                <option>Alaska</option>
+                                <option>Arizona</option>
+                                <option>Arkansas</option>
+                                <option>California</option>
+                                <option>Colorado</option>
+                                <option>Connecticut</option>
+                                <option>Delaware</option>
+                                <option>Florida</option>
+                                <option>Georgia</option>
+                                <option>Hawaii</option>
+                                <option>Idaho</option>
+                                <option>Illinois</option>
+                                <option>Indiana</option>
+                                <option>Iowa</option>
+                                <option>Kansas</option>
+                                <option>Kentucky</option>
+                                <option>Louisiana</option>
+                                <option>Maine</option>
+                                <option>Maryland</option>
+                                <option>Massachusetts</option>
+                                <option>Michigan</option>
+                                <option>Minnesota</option>
+                                <option>Mississippi</option>
+                                <option>Missouri</option>
+                                <option>Montana</option>
+                                <option>Nebraska</option>
+                                <option>Nevada</option>
+                                <option>New Hampshire</option>
+                                <option>New Jersey</option>
+                                <option>New Mexico</option>
+                                <option>New York</option>
+                                <option>North Carolina</option>
+                                <option>North Dakota</option>
+                                <option>Ohio</option>
+                                <option>Oklahoma</option>
+                                <option>Oregon</option>
+                                <option>Pennsylvania</option>
+                                <option>Rhode Island</option>
+                                <option>South Carolina</option>
+                                <option>South Dakota</option>
+                                <option>Tennessee</option>
+                                <option selected="selected">Texas</option>
+                                <option>Utah</option>
+                                <option>Vermont</option>
+                                <option>Virginia</option>
+                                <option>Washington</option>
+                                <option>West Virginia</option>
+                                <option>Wisconsin</option>
+                                <option>Wyoming</option>
+                            </select>
+                        </div>
+                        @*-----City Field----*@
+                        <div class="form-group" style="padding-left: 5px">
+                            <label for="City">City</label>
+                            <input type="text" class="form-control" placeholder="Houston">
+                        </div>
+                        @*-----Zip Code Field----*@
+                        <div class="form-group" style="padding-left: 5px">
+                            <label for="Zip">Zip Code</label>
+                            <input type="text" class="form-control" placeholder="77025">
+                        </div>
+                        @*<div class="form-group">
+                                <label for="exampleSelect2">Example multiple select</label>
+                                <select multiple class="form-control" id="exampleSelect2">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleTextarea">Example textarea</label>
+                                <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputFile">File input</label>
+                                <input type="file" class="form-control-file" id="exampleInputFile" aria-describedby="fileHelp">
+                                <small id="fileHelp" class="form-text text-muted">This is some placeholder block-level help text for the above input. It's a bit lighter and easily wraps to a new line.</small>
+                            </div>
+                            <fieldset class="form-group">
+                                <legend>Radio buttons</legend>
+                                <div class="form-check">
+                                    <label class="form-check-label">
+                                        <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+                                        Option one is this and that&mdash;be sure to include why it's great
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <label class="form-check-label">
+                                        <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios2" value="option2">
+                                        Option two can be something else and selecting it will deselect option one
+                                    </label>
+                                </div>
+                                <div class="form-check disabled">
+                                    <label class="form-check-label">
+                                        <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios3" value="option3" disabled>
+                                        Option three is disabled
+                                    </label>
+                                </div>
+                            </fieldset>
+                            <div class="form-check">
+                                <label class="form-check-label">
+                                    <input type="checkbox" class="form-check-input">
+                                    Check me out
+                                </label>
+                            </div>*@
+                        <a href="/PatientPortal/Index" class="ss-button" type="submit" style="padding: 15px; text-align: center; display: block;  border-radius: 40px; height: 50px; margin-top: 0; margin-bottom: 30px; width: 200px; background-color: navy; border: none; color: lightgoldenrodyellow; font-size: 16px;">Submit</a>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

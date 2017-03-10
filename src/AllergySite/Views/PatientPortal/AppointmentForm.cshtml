@@ -1,0 +1,79 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    Layout = "~/Views/Shared/_LayoutPatientPortal.cshtml";
+}
+
+<div class="bhoechie-tab">
+    <div class="bhoechie-tab-content active">
+        <p style="font-size:medium;margin-bottom:20px;">Select your appointment preferences and our staff will follow up with you to finalize your appointment. This is simply a contact request and is not final.</p>
+        <div class="panel panel-default">
+            <div class="panel-heading noNote">
+                <div class="title-right"></div>
+                <div class="panel-title">Appointment Request.</div>
+            </div>
+            <div class="panel-body overflowH">
+                <div class="form-horizontal group-border hover-stripped formView">
+                    <form>
+                        @*-----Name Field----*@
+                        <div class="form-group" style="padding-left: 5px">
+                            <label for="Name">Name</label>
+                            <input type="text" class="form-control" aria-describedby="name" placeholder="Chris Grindereng">
+                            <small class="form-text text-muted">Enter both your first and last name</small>
+                        </div>
+                        @*-----Phone number Field----*@
+                        <div class="form-group" style="padding-left: 5px">
+                            <label for="phoneNumber">Phone</label>
+                            <input type="tel" class="form-control" placeholder="3037179282">
+                        </div>
+                        @*-----Office Selector----*@
+                        <div class="form-group" style="padding-left: 5px">
+                            <label for="OfficeSelection">Select the Office Location</label>
+                            <select class="form-control">
+                                <option>Texas Medical Center</option>
+                                <option>The Galleria</option>
+                                <option>The Woodlands</option>
+                            </select>
+                        </div>
+                        @*-----Physician----*@
+                        <div class="form-group" style="padding-left: 5px">
+                            <label for="PhysicianSelection">Select the Physician</label>
+                            <select class="form-control">
+                                <option>Perry Cox M.D.</option>
+                                <option>Elliot Read M.D.</option>
+                                <option>John Micheal Dorian M.D.</option>
+                            </select>
+                        </div>
+                        @*-----Time----*@
+                        <div class="form-group" style="padding-left: 5px">
+                            <label for="TimeSelection">Select a time of day</label>
+                            <select class="form-control">
+                                <option>8:00 AM</option>
+                                <option>9:00 AM</option>
+                                <option>10:00 AM</option>
+                                <option>11:00 AM</option>
+                                <option>1:00 PM</option>
+                                <option>2:00 PM</option>
+                                <option>3:00 PM</option>
+                                <option>4:00 PM</option>
+                            </select>
+                        </div>   
+                        <div class="form-group" style="padding-left: 5px">
+                            <label for="DaySelection">Select a preferred day of the week</label>
+                            <select class="form-control">
+                                <option>Monday</option>
+                                <option>Tuesday</option>
+                                <option>Wednesday</option>
+                                <option>Thursday</option>
+                                <option>Friday</option>
+                            </select>
+                        </div>  
+                        <a href="/PatientPortal/AppointmentSubmitted" class="ss-button" type="submit" style="padding: 15px; text-align: center; display: block;  border-radius: 40px; height: 50px; margin-top: 0; margin-bottom: 30px; width: 200px; background-color: navy; border: none; color: lightgoldenrodyellow; font-size: 16px;">Submit</a>                    
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
