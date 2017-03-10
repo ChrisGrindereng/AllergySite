@@ -1,0 +1,147 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.navbar-inverse{
+    background-color: navy;
+}
+
+/* Set widths on the form inputs since otherwise they're 100% wide */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+
+/* Carousel */
+.carousel-caption h1{
+    color: lightgoldenrodyellow;
+}
+
+.carousel-caption p {
+    font-size: 20px;
+    line-height: 1.4;
+    margin-bottom: 100px;
+    color: lightgoldenrodyellow;
+}
+
+/* buttons and links extension to use brackets: [ click me ] */
+.btn-bracketed::before {
+    display:inline-block;
+    content: "[";
+    padding-right: 0.5em;
+}
+.btn-bracketed::after {
+    display:inline-block;
+    content: "]";
+    padding-left: 0.5em;
+}
+
+.item {
+    height: 450px;
+}
+
+/* Make .svg files in the carousel display properly in older browsers */
+.carousel-inner .item img[src$=".svg"]
+{
+    width: 100%;
+    min-height: 450px;
+   
+}
+
+/* Hide/rearrange for smaller screens */
+@media screen and (max-width: 767px) {
+  /* Hide captions */
+  .carousel-caption {
+    display: none
+  }
+}
+
+/*card classes*/ 
+
+.card{
+  background: #fff;
+  border: 1px solid grey;
+  border-radius: 5px 5px;
+  display: inline-block;
+  margin: 1rem;
+  position: relative;
+  width: 31%;
+  text-align: center
+}
+.card-img-top {
+width: 100%;
+border-radius: 5px 5px;
+}
+.card-img-left{
+    float: left;
+    border-radius: 5px 5px;
+    margin: 10px;
+}
+.card-1{
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.card-2{
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.card-2:hover{
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.card-menu{
+    width: 250px;
+}
+
+.colom-list{
+    list-style: none;
+    margin-left: -40px;    
+}
+
+.card-large{
+    width: 100%;
+    text-align: left;
+}
+
+.card-medium{
+    width: 48%;
+    text-align: left;
+}
+
+.colom{
+  background: #fff;
+  display: inline-block;
+  margin: 1rem;
+  position: relative;
+  width: 31%;
+  text-align: center;
+  vertical-align: top;
+}
+
+
+
+.colom-border{
+    border-left: solid black 1px;
+    border-right: solid black 1px;
+}
+
+a{
+    color: black;
+}
+
+
+
+
+
+
